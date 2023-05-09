@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+.search{
+	width:100%;	
+	min-width: 1263px;
+	height: 600px;
+	/*background: url("../images/lunbo3.jpg") no-repeat center;*/
+	/*background: url("../images/lunbo1.jpg") no-repeat center;*/
+	position: relative;
+}
+
+.search input{
+	width: 460px;
+	height: 32px;
+	border-radius: 10px;
+	font-size: 14px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin: -39px 0 0 -299px;
+	outline: none;
+}
+
+.search button{
+	width: 132px;
+	height: 36px;
+	font-size: 14px;
+	border-radius: 10px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -38px 0 0 168px;
+	outline: none;
+	font-weight: bold;
+	color: #999;
+	cursor: pointer;
+}
+.tour{
+	width: 1263px;
+	margin: 30px auto;
+}
+.tour-center{
+	text-align: center;
+	color: #666;
+}
+.tour h2{
+	font-size: 45px;
+	letter-spacing: 2px;
+	margin: 10px 0;
+	line-height: 1.5;
+	font-weight: bold;
+	text-align: center;
+}
+.tour-p{
+	margin: 10px 0;
+}
+.message{
+	width: 380px;
+	height: 300px;
+	border: 1px solid #eee;
+	padding: 4px;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 15px 12px;
+	position: relative;
+}
+.move{
+	transition:all 0.5s;
+	width:760px;
+	height: 230px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.message img{
+	display: block;
+	float: left;
+}
+.message figcaption{
+	text-align: left;
+	color:#999;
+	font-size: 14px;
+	line-height: 1.5;
+    letter-spacing: 1px;
+}
+.message figcaption strong{
+	color:#000;
+	font-weight: normal;
+}
+
+.sat{
+	display: block;
+	float: right;
+	font-size: 13px;
+	font-style: normal;
+	color: #999;
+	position: relative;
+	top:5px;
+	right:4px;
+}
+.price{
+	color:#f60;
+	font-size: 14px;
+	letter-spacing: 1px;
+
+}
+.price strong{
+	font-size: 20px;
+}
+
+/*图片放大效果*/
+.hide .sat .img01{
+	transition:all 0.5s ease-in 0s;
+}
+.hide .sat:hover .img01{
+	transform: scale(1.1,1.1);
+}
+
+
+/*轮播图*/
+.banner{
+	width: 100%;
+	height: 800PX;
+	overflow: hidden;
+	position: relative;
+
+}
+.banner .pic {
+	display: none;
+}
+
+.banner .current {
+	display: block;
+}
+.banner .ban {
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+#button {
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	margin-left: -62px;
+	z-index: 9999;
+}
+#button .current {
+	background: #2fade7;
+	float: left;
+	width: 28px;
+	height: 1px;
+	border: 1px solid #90d1d5;
+	margin-right: 20px;
+}
+#button li {
+	cursor: pointer;
+}
+#button .but {
+	float: left;
+	width: 28px;
+	height: 1px;
+	border: 1px solid #d6d6d6;
+	margin-right: 20px;
+}

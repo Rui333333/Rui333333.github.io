@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.aboutUs p {
+    color: #666;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 20px 0;
+    text-indent: 40px;
+}
+
+.contact ul {
+    color: #666;
+    margin: 20px 0 0 20px;
+    font-size: 20px;
+}
+
+.contact ul li {
+    margin: 4px 0;
+}
+
+.content a {
+    float: left;
+    width: 45px;
+    height: 24px;
+    line-height: 24px;
+    color: #ccc;
+    padding-left: 30px;
+    margin-left: 20px;
+    background: url(../images/pic01.jpg) no-repeat left center;
+}
+
+.content a:nth-of-type(2) {
+    background: url(../images/pic02.jpg) no-repeat left center;
+}
+
+.content a:nth-of-type(3) {
+    background: url(../images/pic03.jpg) no-repeat left center;
+}
+
+#Book{
+    float: right;
+}
+.Top5{
+    margin: 20px;
+}
+
+video {
+    height: 480px;
+}
+.text01,.text02,.text03,.text04,.text05{
+    margin: 10px 20px;
+}
+.JD01,.JD02,.JD03,.JD04,.JD05{
+    margin: 10px 30px 30px;
+}
+.text-size01,.text-size02 ,.text-size03,.text-size04,.text-size05{
+    font-size: 20px;
+}
+
+/*图片阴影动画效果*/
+.img {
+    -webkit-transform: scale(1.0);
+    -webkit-transition-duration: 0.5s;
+}
+
+.img:hover {
+    -webkit-transform: scale(1.1);
+}
+
+.img .mask {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    height: 100%;
+    opacity: 0.6;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+}
+
+#img-1:hover .mask {
+    height: 0%;
+}
+
+#img-3:hover .mask {
+    height: 0%;
+}
+
+#img-2:hover .mask {
+    margin-left: 219px;
+    margin-top: 135px;
+    height: 0%;
+    width: 0%;
+    -webkit-transform: rotateZ(750deg);
+}
+
+#img-4:hover .mask {
+    margin-left: 219px;
+    margin-top: 135px;
+    height: 0%;
+    width: 0%;
+    -webkit-transform: rotateZ(750deg);
+}
+
+#img-6:hover .mask {
+    margin-left: 219px;
+    margin-top: 135px;
+    height: 0%;
+    width: 0%;
+}
+
+#img-8:hover .mask {
+    margin-left: 219px;
+    margin-top: 135px;
+    height: 0%;
+    width: 0%;
+}
+
+#img-5:hover .mask {
+    height: 0%;
+    margin-top: 130px;
+}
+
+#img-7:hover .mask {
+    height: 0%;
+    margin-top: 130px;
+}
+
+

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.main{
+	width: 100%;
+	text-align: center;
+}
+.scenery{
+/*	width: 440px;*/
+	display: inline-block;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	padding: 4px;
+	margin: 20px 3px;
+	font-size: 20px;
+	color: #666;
+}
+/*图片旋转*/
+img.touxiang:hover{
+	-webkit-transform: rotate(180deg);
+}
+img.touxiang{
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
+/*图片阴影效果*/
+.figure:hover img:not(:hover){
+	-webkit-filter: blur(2px) grayscale(1);
+	opacity: .7;
+}
+
+/*图片放大效果*/
+.sta .imgFd{
+	transition: all 0.5s ease-in 0s;
+	overflow: hidden;
+}
+.sta:hover .imgFd{
+	transform: scale(1.1,1.1);
+}
+
+

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+.headline{
+	height: 300px;
+	width:100%;
+	min-width: 1263px;
+	background:linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url("../images/headline.jpg") no-repeat scroll center center;
+}
+.center hgroup{
+	position: relative;
+	top:100px;
+	left:60px;
+	color: #fff;
+}
+.center hgroup h2{
+	font-size: 36px;
+}
+.center hgroup h3{
+	font-size: 20px;
+}
+.section{
+	width: 1263px;
+	margin: 30px auto;
+}
+.right{
+	width: 340px;
+	float: right;
+}
+.right h2{
+	font-weight: normal;
+	margin-bottom: 10px;
+	color: #666;
+	font-size: 20px;
+	height: 40px;
+	letter-spacing: 1px;
+    line-height: 40px;
+    text-align: left;
+    text-indent: 12px;
+}
+.tourAtag ul{
+	text-align: center;
+}
+.tourAtag ul li{
+	display: inline-block;
+}
+.tourAtag a{
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	text-indent: 7px;
+	color: #999;
+	background-color: #eee;
+	float: left;
+}
+.tourAtag a:hover{
+	color: #fff;
+	background-color: #59b200;
+}
+.hotTour{
+	clear:both;
+}
+.tourBox{
+	clear:both;
+}
+
+.figure{
+	text-align: center;
+}
+.figure figure{
+	display: inline-block;
+	padding: 4px;
+}
+.figure figcaption{
+	color: #666;
+}
+.tourBox{
+	text-align: center;
+	padding-bottom: 10px;
+}
+/*百宝箱图片*/
+.tourBox a{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	text-indent: 35px;
+	color:#999;
+	margin-bottom: 4px;
+}
+.tourBox a:nth-child(2){
+		background:#eee url(../images/trea1.png) no-repeat scroll 10px center;
+}
+.tourBox a:nth-child(3){
+		background:#eee url(../images/trea2.png) no-repeat scroll 10px center;
+}
+.tourBox a:nth-child(4){
+		background:#eee url(../images/trea3.png) no-repeat scroll 10px center;
+}
+.tourBox a:nth-child(5){
+		background:#eee url(../images/trea4.png) no-repeat scroll 10px center;
+}
+
+.tourAtag,.hotTour,.tourBox{
+	width: 100%;
+	border: 1px solid #eee;
+	margin-bottom:10px ;
+}
+
+.left{
+	width:910px;
+	float: left;
+	position: relative;
+}
+.tabcontrol{
+	width: 912px;
+	height: 45px;
+	border-top: 1px solid #59b200;
+	background-color: #eee;
+}
